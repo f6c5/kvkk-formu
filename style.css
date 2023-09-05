@@ -19,17 +19,18 @@ body {
 .modal-content {
   background-color: #fff;
   height: 80%;
+  max-width: 900px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
   overflow: hidden;
+  margin: 2rem;
 }
 
 .close {
   position: absolute;
-  top: 2rem;
-  right: 3rem;
-  font-size: 2rem;
+  top: 2.3rem;
+  right: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -40,6 +41,8 @@ body {
   border-bottom: 1px solid rgb(0, 123, 255);
   background-color: #fff;
   z-index: 2;
+  text-align: center;
+  color: rgb(0, 123, 255);
 }
 
 .kvkk-text {
@@ -47,4 +50,13 @@ body {
   padding-top: 4rem;
   height: 80%;
   overflow: scroll;
+}
+
+.kvkk-text h2 {
+  font-weight: normal;
+  color: rgb(0, 123, 255);
+}
+
+.kvkk-text p {
+  margin-bottom: 3rem;
 }
